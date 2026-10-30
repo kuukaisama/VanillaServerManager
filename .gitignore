@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Version 1.0より前のローカルデータ（現在は移行元としてのみ使用）
+server/
+backups/
+profiles.json
+profiles.json.tmp
+settings.json
+app.lock
+/VanillaServerManager/
+/MinecraftServerManager/
+/minecraft_maneger/
+
+# Official Minecraft server JARs are supplied by each user
+*.jar
+worldversion/*
+!worldversion/.gitkeep
+
+# Minecraft server runtime and player data
+*.zip
+server.properties
+eula.txt
+whitelist.json
+ops.json
+usercache.json
+banned-players.json
+banned-ips.json
+world/
+world_nether/
+world_the_end/
+region/
+playerdata/
+advancements/
+stats/
+poi/
+entities/
+level.dat
+level.dat_old
+session.lock
+libraries/
+versions/
+crash-reports/
+logs/
+*.log.gz
+
+# Local configuration, logs, secrets, and certificates
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# Temporary and manual-test artifacts
+*.tmp
+.restore_*/
+vanilla-server-manager-motd-*/
+
+# Editors and IDEs
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+*.suo
+*.user
+*.iml
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
